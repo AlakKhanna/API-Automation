@@ -5,11 +5,13 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
 public class NonBDDStylewithTestNG {
+    RequestSpecification r;
+
 
     @Test
     public void  Testgetallbookingpositibe()
     {
-        RequestSpecification r = RestAssured.given();
+        r = RestAssured.given();
         r.baseUri("https://restful-booker.herokuapp.com");
         r.basePath("/booking/679").log().all();
 
@@ -20,7 +22,6 @@ public class NonBDDStylewithTestNG {
     @Test (enabled = false)
     public void  Testgetallbookingnegative()
     {
-        RequestSpecification r = RestAssured.given();
         r.baseUri("https://restful-booker.herokuapp.com");
         r.basePath("/booking/-2975").log().all();
 
@@ -32,7 +33,6 @@ public class NonBDDStylewithTestNG {
     @Test
     public void  Testgetallbookingnegative2()
     {
-        RequestSpecification r = RestAssured.given();
         r.baseUri("https://restful-booker.herokuapp.com");
         r.basePath("/booking/abc").log().all();
 

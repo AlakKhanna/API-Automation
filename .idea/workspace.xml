@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408e3c76-53f5-4dae-bb2c-8f7a992b3ff1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/BuilderPackageDemo/DesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/BuilderPackageDemo/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/BuilderPackageDemo/NonDesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Get/BDDStyleGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Get/NonBDDStyleGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Get/NonBDDStylewithTestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Allpackage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Delete/NonBDDDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Patch/NonBDDPatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Post/BDDStylepost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Post/NonBDDstylepost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Put/NonBDDPut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Get/NonBDDStylewithTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Get/NonBDDStylewithTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +56,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/testng.xml.executor": "Run",
+    "TestNG.BDDStylepost.testBDDStylePositive.executor": "Run",
+    "TestNG.NonBDDDelete.executor": "Run",
+    "TestNG.NonBDDPatch.testPutRequest.executor": "Run",
+    "TestNG.NonBDDPut.executor": "Run",
     "TestNG.NonBDDStylewithTestNG.Testgetallbookingnegative2.executor": "Run",
     "TestNG.NonBDDStylewithTestNG.Testgetallbookingpositibe.executor": "Run",
+    "TestNG.NonBDDstylepost.TestNonBDDStylePostPositive.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
@@ -75,57 +77,18 @@
       <recent name="RestAPI" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NonBDDStylewithTestNG.Testgetallbookingpositibe">
-    <configuration name="BDDStyleGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Get.BDDStyleGet" />
+  <component name="RunManager" selected="TestNG.NonBDDDelete">
+    <configuration name="BDDStylepost.testBDDStylePositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Get.*" />
+          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Post.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HelloWorld" />
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonBDDStyleGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Get.NonBDDStyleGet" />
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Get.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonBDDStylewithTestNG.Testgetallbookingnegative2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Get.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Get" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Get.NonBDDStylewithTestNG" />
-      <option name="METHOD_NAME" value="Testgetallbookingnegative2" />
+      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Post" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Post.BDDStylepost" />
+      <option name="METHOD_NAME" value="testBDDStylePositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,17 +96,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDStylewithTestNG.Testgetallbookingpositibe" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NonBDDDelete" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Get.*" />
+          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Delete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Get" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Get.NonBDDStylewithTestNG" />
-      <option name="METHOD_NAME" value="Testgetallbookingpositibe" />
+      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Delete" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Delete.NonBDDDelete" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDDPatch.testPutRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Patch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Patch" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Patch.NonBDDPatch" />
+      <option name="METHOD_NAME" value="testPutRequest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDDPut" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Put.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Put" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Put.NonBDDPut" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDDstylepost.TestNonBDDStylePostPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Post" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Post.NonBDDstylepost" />
+      <option name="METHOD_NAME" value="TestNonBDDStylePostPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NonBDDStylewithTestNG.Testgetallbookingpositibe" />
-        <item itemvalue="TestNG.NonBDDStylewithTestNG.Testgetallbookingnegative2" />
-        <item itemvalue="Application.NonBDDStyleGet" />
-        <item itemvalue="Application.BDDStyleGet" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="TestNG.NonBDDDelete" />
+        <item itemvalue="TestNG.NonBDDPatch.testPutRequest" />
+        <item itemvalue="TestNG.NonBDDPut" />
+        <item itemvalue="TestNG.NonBDDstylepost.TestNonBDDStylePostPositive" />
+        <item itemvalue="TestNG.BDDStylepost.testBDDStylePositive" />
       </list>
     </recent_temporary>
   </component>
