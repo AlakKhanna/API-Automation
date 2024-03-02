@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408e3c76-53f5-4dae-bb2c-8f7a992b3ff1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Allpackage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Delete/NonBDDDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Patch/NonBDDPatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Post/BDDStylepost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Post/NonBDDstylepost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Put/NonBDDPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNG00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-AllAnnotation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Get/NonBDDStylewithTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestCases/CRUD/Get/NonBDDStylewithTestNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/testng-AllAnnotation.xml.executor": "Run",
     "TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/testng.xml.executor": "Run",
     "TestNG.BDDStylepost.testBDDStylePositive.executor": "Run",
     "TestNG.NonBDDDelete.executor": "Run",
@@ -64,6 +63,10 @@
     "TestNG.NonBDDStylewithTestNG.Testgetallbookingnegative2.executor": "Run",
     "TestNG.NonBDDStylewithTestNG.Testgetallbookingpositibe.executor": "Run",
     "TestNG.NonBDDstylepost.TestNonBDDStylePostPositive.executor": "Run",
+    "TestNG.Test001.demo55.executor": "Run",
+    "TestNG.Test001.executor": "Run",
+    "TestNG.Test002 (1).executor": "Run",
+    "TestNG.Test002.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
@@ -77,35 +80,17 @@
       <recent name="RestAPI" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NonBDDDelete">
-    <configuration name="BDDStylepost.testBDDStylePositive" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Test002 (1)">
+    <configuration name="Test001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Post.*" />
+          <option name="PATTERN" value="RestAPI.TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Post" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Post.BDDStylepost" />
-      <option name="METHOD_NAME" value="testBDDStylePositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonBDDDelete" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Delete.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Delete" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Delete.NonBDDDelete" />
+      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.Test001" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -113,34 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDPatch.testPutRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test002 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Patch.*" />
+          <option name="PATTERN" value="RestAPI.TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Patch" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Patch.NonBDDPatch" />
-      <option name="METHOD_NAME" value="testPutRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonBDDPut" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Put.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Put" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Put.NonBDDPut" />
+      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.Test002" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,18 +115,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDstylepost.TestNonBDDStylePostPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test002" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAPI.TestCases.CRUD.Post.*" />
+          <option name="PATTERN" value="RestAPI.TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestCases.CRUD.Post" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestCases.CRUD.Post.NonBDDstylepost" />
-      <option name="METHOD_NAME" value="TestNonBDDStylePostPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.Test002" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/alak/IdeaProjects/APIAutomationRestAssured/testng-AllAnnotation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-AllAnnotation.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/alak/IdeaProjects/APIAutomationRestAssured/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -168,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NonBDDDelete" />
-        <item itemvalue="TestNG.NonBDDPatch.testPutRequest" />
-        <item itemvalue="TestNG.NonBDDPut" />
-        <item itemvalue="TestNG.NonBDDstylepost.TestNonBDDStylePostPositive" />
-        <item itemvalue="TestNG.BDDStylepost.testBDDStylePositive" />
+        <item itemvalue="TestNG.Test002 (1)" />
+        <item itemvalue="TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/testng.xml" />
+        <item itemvalue="TestNG.Test002" />
+        <item itemvalue="TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/testng-AllAnnotation.xml" />
+        <item itemvalue="TestNG.Test001" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +180,17 @@
       <updated>1709062943067</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

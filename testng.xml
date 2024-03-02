@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/TestCases/CRUD"><classes><class name="RestAPI.TestCases.CRUD.Delete.NonBDDDelete"><methods><include name="testDeleteRequest"/></methods></class><class name="RestAPI.TestCases.CRUD.Get.NonBDDStylewithTestNG"><methods><include name="Testgetallbookingpositibe"/><include name="Testgetallbookingnegative"/><include name="Testgetallbookingnegative2"/></methods></class><class name="RestAPI.TestCases.CRUD.Patch.NonBDDPatch"><methods><include name="testPatchRequest"/></methods></class><class name="RestAPI.TestCases.CRUD.Post.BDDStylepost"><methods><include name="testBDDStylePositive"/></methods></class><class name="RestAPI.TestCases.CRUD.Post.NonBDDstylepost"><methods><include name="TestNonBDDStylePostPositive"/></methods></class><class name="RestAPI.TestCases.CRUD.Put.NonBDDPut"><methods><include name="testPutRequest"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/TestNG/Test002.java">
+        <classes/>
+    </test>
+</suite>
