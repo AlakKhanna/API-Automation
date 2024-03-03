@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408e3c76-53f5-4dae-bb2c-8f7a992b3ff1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test007.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test009.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +67,11 @@
     "TestNG.Test002 (1).executor": "Run",
     "TestNG.Test002.executor": "Run",
     "TestNG.Test004.executor": "Run",
+    "TestNG.Test005.executor": "Run",
+    "TestNG.Test006.executor": "Run",
+    "TestNG.Test006.t3.executor": "Run",
+    "TestNG.Test008.TC1.executor": "Run",
+    "TestNG.Test008.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
@@ -76,58 +85,7 @@
       <recent name="RestAPI" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test005">
-    <configuration name="Test002 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.Test002" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test002" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.Test002" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test004" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.Test004" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Test008">
     <configuration name="Test005" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
@@ -138,6 +96,58 @@
       </extension>
       <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
       <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.Test005" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test006" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAPI.TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.Test006" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test006.t3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAPI.TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.Test006" />
+      <option name="METHOD_NAME" value="t3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test008" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAPI.TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.Test008" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -157,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test005" />
-        <item itemvalue="TestNG.Test004" />
-        <item itemvalue="TestNG.Test002 (1)" />
+        <item itemvalue="TestNG.Test008" />
         <item itemvalue="TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/testng.xml" />
-        <item itemvalue="TestNG.Test002" />
+        <item itemvalue="TestNG.Test006" />
+        <item itemvalue="TestNG.Test006.t3" />
+        <item itemvalue="TestNG.Test005" />
       </list>
     </recent_temporary>
   </component>

@@ -2,7 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="/Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/TestNG/Test002.java">
-        <classes/>
+          name="/Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/TestNG/Test007.java">
+        <groups>
+            <run>
+                <include name="sanity"></include>
+                <exclude name="smoke"></exclude>
+            </run>
+        </groups>
+        <classes>
+        <class name="RestAPI.TestNG.Test007"> </class>
+        </classes>
     </test>
 </suite>
