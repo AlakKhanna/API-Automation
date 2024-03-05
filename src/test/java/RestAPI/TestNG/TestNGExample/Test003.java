@@ -1,4 +1,4 @@
-package RestAPI.TestNG;
+package RestAPI.TestNG.TestNGExample;
 
 import org.testng.annotations.BeforeTest;
 

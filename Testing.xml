@@ -1,2 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/alak/IdeaProjects/APIAutomationRestAssured"><classes><class name="RestAPI.TestCases.CRUD.Delete.NonBDDDelete"><methods><include name="testDeleteRequest"/></methods></class><class name="RestAPI.TestCases.CRUD.Get.NonBDDStylewithTestNG"><methods><include name="Testgetallbookingpositibe"/><include name="Testgetallbookingnegative"/><include name="Testgetallbookingnegative2"/></methods></class><class name="RestAPI.TestCases.CRUD.Patch.NonBDDPatch"><methods><include name="testPatchRequest"/></methods></class><class name="RestAPI.TestCases.CRUD.Post.BDDStylepost"><methods><include name="testBDDStylePositive"/></methods></class><class name="RestAPI.TestCases.CRUD.Post.NonBDDstylepost"><methods><include name="TestNonBDDStylePostPositive"/></methods></class><class name="RestAPI.TestCases.CRUD.Put.NonBDDPut"><methods><include name="testPutRequest"/></methods></class><class name="RestAPI.TestNG.Test001"><methods><include name="demo5"/><include name="demo55"/></methods></class><class name="RestAPI.TestNG.TestNG00"><methods><include name="testcase1"/><include name="testcase2"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/alak/IdeaProjects/APIAutomationRestAssured">
+        <classes>
+            <class name="RestAPI.TestCases.CRUD.Delete.NonBDDDelete">
+                <methods>
+                    <include name="testDeleteRequest"/>
+                </methods>
+            </class>
+            <class name="RestAPI.TestCases.CRUD.Get.NonBDDStylewithTestNG">
+                <methods>
+                    <include name="Testgetallbookingpositibe"/>
+                    <include name="Testgetallbookingnegative"/>
+                    <include name="Testgetallbookingnegative2"/>
+                </methods>
+            </class>
+            <class name="RestAPI.TestCases.CRUD.Patch.NonBDDPatch">
+                <methods>
+                    <include name="testPatchRequest"/>
+                </methods>
+            </class>
+            <class name="RestAPI.TestCases.CRUD.Post.BDDStylepost">
+                <methods>
+                    <include name="testBDDStylePositive"/>
+                </methods>
+            </class>
+            <class name="RestAPI.TestCases.CRUD.Post.NonBDDstylepost">
+                <methods>
+                    <include name="TestNonBDDStylePostPositive"/>
+                </methods>
+            </class>
+            <class name="RestAPI.TestCases.CRUD.Put.NonBDDPut">
+                <methods>
+                    <include name="testPutRequest"/>
+                </methods>
+            </class>
+            <class name="RestAPI.TestNG.TestNGExample.Test001">
+                <methods>
+                    <include name="demo5"/>
+                    <include name="demo55"/>
+                </methods>
+            </class>
+            <class name="RestAPI.TestNG.TestNGExample.TestNG00">
+                <methods>
+                    <include name="testcase1"/>
+                    <include name="testcase2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

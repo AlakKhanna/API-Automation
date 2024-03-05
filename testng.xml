@@ -10,7 +10,7 @@
             </run>
         </groups>
         <classes>
-        <class name="RestAPI.TestNG.Test007"> </class>
+        <class name="RestAPI.TestNG.TestNGExample.Test007"> </class>
         </classes>
     </test>
 </suite>

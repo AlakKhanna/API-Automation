@@ -1,4 +1,4 @@
-package RestAPI.TestNG;
+package RestAPI.TestNG.TestNGExample;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

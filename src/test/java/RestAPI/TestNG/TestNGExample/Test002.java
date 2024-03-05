@@ -1,15 +1,13 @@
-package RestAPI.TestNG;
+package RestAPI.TestNG.TestNGExample;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import static org.assertj.core.api.Assertions.*;
 
 public class Test002 {
 

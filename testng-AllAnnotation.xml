@@ -3,8 +3,9 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
           name="/Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/TestNG">
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="RestAPI.TestNG.Test001">
+            <class name="RestAPI.TestNG.TestNGExample.Test001">
 
             </class>
         </classes>
