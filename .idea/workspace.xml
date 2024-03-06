@@ -5,29 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408e3c76-53f5-4dae-bb2c-8f7a992b3ff1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Resource/TestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/DDT/DDT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/DDT/UtilExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNG Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test010.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test011.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test012.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test013.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/ListenerDemo/CustomizeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/ListenerDemo/TC001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/ListenerDemo/testng-tc001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/Parallel/mainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/Parallel/testng-parallel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Testing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test006.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test007.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test008.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/Test009.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/Test009.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNG00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/TestNGExample/TestNG00.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng-AllAnnotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-AllAnnotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +53,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/ListenerDemo/testng-tc001.xml.executor": "Run",
+    "TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/Parallel/testng-parallel.xml.executor": "Run",
     "TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/testng-AllAnnotation.xml.executor": "Run",
     "TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/testng.xml.executor": "Run",
     "TestNG.BDDStylepost.testBDDStylePositive.executor": "Run",
@@ -79,6 +65,7 @@
     "TestNG.NonBDDStylewithTestNG.Testgetallbookingnegative2.executor": "Run",
     "TestNG.NonBDDStylewithTestNG.Testgetallbookingpositibe.executor": "Run",
     "TestNG.NonBDDstylepost.TestNonBDDStylePostPositive.executor": "Run",
+    "TestNG.TC001.executor": "Run",
     "TestNG.Test001.demo55.executor": "Run",
     "TestNG.Test001.executor": "Run",
     "TestNG.Test002 (1).executor": "Run",
@@ -94,16 +81,18 @@
     "TestNG.Test013.demo1.executor": "Run",
     "TestNG.Test013.demo3.executor": "Run",
     "TestNG.Test013.executor": "Run",
+    "TestNG.mainClass.testMethod2.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/RestAPI/ListenerDemo" />
       <recent name="$PROJECT_DIR$/src/test/Resource" />
       <recent name="$PROJECT_DIR$/src/test/java/RestAPI/TestNG/DDT" />
       <recent name="$PROJECT_DIR$/src/test/java/RestAPI/TestNG" />
@@ -112,7 +101,7 @@
       <recent name="RestAPI" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DDT.testLogin">
+  <component name="RunManager" selected="TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/Parallel/testng-parallel.xml">
     <configuration name="DDT.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
@@ -131,16 +120,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test010" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAPI.TestNG.TestNGExample.*" />
+          <option name="PATTERN" value="RestAPI.ListenerDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestNG.Practice" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.TestNGExample.Test010" />
+      <option name="PACKAGE_NAME" value="RestAPI.ListenerDemo" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.ListenerDemo.TC001" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,52 +137,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test013" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/ListenerDemo/testng-tc001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.TestNG.TestNGExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.TestNGExample.Test013" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/RestAPI/ListenerDemo/testng-tc001.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test013.demo1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/Parallel/testng-parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.TestNG.TestNGExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.TestNGExample.Test013" />
-      <option name="METHOD_NAME" value="demo1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/RestAPI/Parallel/testng-parallel.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test013.demo3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="mainClass.testMethod2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAPI.TestNG.TestNGExample.*" />
+          <option name="PATTERN" value="RestAPI.Parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.TestNGExample.Test013" />
-      <option name="METHOD_NAME" value="demo3" />
+      <option name="PACKAGE_NAME" value="RestAPI.Parallel" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.Parallel.mainClass" />
+      <option name="METHOD_NAME" value="testMethod2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -203,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/Parallel/testng-parallel.xml" />
+        <item itemvalue="TestNG.mainClass.testMethod2" />
+        <item itemvalue="TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/ListenerDemo/testng-tc001.xml" />
+        <item itemvalue="TestNG.TC001" />
         <item itemvalue="TestNG.DDT.testLogin" />
-        <item itemvalue="TestNG.Test010" />
-        <item itemvalue="TestNG.Test013" />
-        <item itemvalue="TestNG.Test013.demo1" />
-        <item itemvalue="TestNG.Test013.demo3" />
       </list>
     </recent_temporary>
   </component>
