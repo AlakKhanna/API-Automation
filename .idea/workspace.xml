@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408e3c76-53f5-4dae-bb2c-8f7a992b3ff1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/ListenerDemo/CustomizeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/ListenerDemo/TC001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/ListenerDemo/testng-tc001.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/Parallel/mainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/Parallel/testng-parallel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/Gson/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/Gson/Bookingdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/Gson/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/Gson/Example/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/Gson/Example/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/Gson/Example/Bookingdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/Gson/Example/Deser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/Gson/Example/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/Gson/Example/PostReqTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/Gson/Example/SimpleSer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/misc/payloadmap/payloadusingmap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +65,16 @@
     "TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/testng.xml.executor": "Run",
     "TestNG.BDDStylepost.testBDDStylePositive.executor": "Run",
     "TestNG.DDT.testLogin.executor": "Run",
+    "TestNG.Demo.executor": "Run",
+    "TestNG.Demo.testpost.executor": "Run",
     "TestNG.NonBDDDelete.executor": "Run",
     "TestNG.NonBDDPatch.testPutRequest.executor": "Run",
     "TestNG.NonBDDPut.executor": "Run",
     "TestNG.NonBDDStylewithTestNG.Testgetallbookingnegative2.executor": "Run",
     "TestNG.NonBDDStylewithTestNG.Testgetallbookingpositibe.executor": "Run",
     "TestNG.NonBDDstylepost.TestNonBDDStylePostPositive.executor": "Run",
+    "TestNG.PostReqTC.testpositive.executor": "Run",
+    "TestNG.SimpleSer.test1.executor": "Run",
     "TestNG.TC001.executor": "Run",
     "TestNG.Test001.demo55.executor": "Run",
     "TestNG.Test001.executor": "Run",
@@ -82,6 +92,9 @@
     "TestNG.Test013.demo3.executor": "Run",
     "TestNG.Test013.executor": "Run",
     "TestNG.mainClass.testMethod2.executor": "Run",
+    "TestNG.payloadusingmap.executor": "Run",
+    "TestNG.payloadusingmap.testpost (1).executor": "Run",
+    "TestNG.payloadusingmap.testpost.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
@@ -100,36 +113,21 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="RestAPI" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RestAPI.misc.Gson.Example" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/Parallel/testng-parallel.xml">
-    <configuration name="DDT.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PostReqTC.testpositive">
+    <configuration name="Demo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAPI.TestNG.DDT.*" />
+          <option name="PATTERN" value="RestAPI.misc.Gson.Example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.TestNG.DDT" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.TestNG.DDT.DDT" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC001" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.ListenerDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.ListenerDemo" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.ListenerDemo.TC001" />
+      <option name="PACKAGE_NAME" value="RestAPI.misc.Gson" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.misc.Gson.Demo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -137,37 +135,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/ListenerDemo/testng-tc001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/RestAPI/ListenerDemo/testng-tc001.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/Parallel/testng-parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/RestAPI/Parallel/testng-parallel.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mainClass.testMethod2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo.testpost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAPI.Parallel.*" />
+          <option name="PATTERN" value="RestAPI.misc.Gson.Example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAPI.Parallel" />
-      <option name="MAIN_CLASS_NAME" value="RestAPI.Parallel.mainClass" />
-      <option name="METHOD_NAME" value="testMethod2" />
+      <option name="PACKAGE_NAME" value="RestAPI.misc.Gson" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.misc.Gson.Demo" />
+      <option name="METHOD_NAME" value="testpost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostReqTC.testpositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAPI.misc.Gson.Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAPI.misc.Gson.Example" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.misc.Gson.Example.PostReqTC" />
+      <option name="METHOD_NAME" value="testpositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSer.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAPI.misc.Gson.Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAPI.misc.Gson.Example" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.misc.Gson.Example.SimpleSer" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="payloadusingmap.testpost (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAPI.misc.payloadmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAPI.misc.payloadmap" />
+      <option name="MAIN_CLASS_NAME" value="RestAPI.misc.payloadmap.payloadusingmap" />
+      <option name="METHOD_NAME" value="testpost" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -177,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/Parallel/testng-parallel.xml" />
-        <item itemvalue="TestNG.mainClass.testMethod2" />
-        <item itemvalue="TestNG./Users/alak/IdeaProjects/APIAutomationRestAssured/src/test/java/RestAPI/ListenerDemo/testng-tc001.xml" />
-        <item itemvalue="TestNG.TC001" />
-        <item itemvalue="TestNG.DDT.testLogin" />
+        <item itemvalue="TestNG.PostReqTC.testpositive" />
+        <item itemvalue="TestNG.SimpleSer.test1" />
+        <item itemvalue="TestNG.Demo.testpost" />
+        <item itemvalue="TestNG.payloadusingmap.testpost (1)" />
+        <item itemvalue="TestNG.Demo" />
       </list>
     </recent_temporary>
   </component>
